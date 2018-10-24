@@ -70,9 +70,9 @@ public class Test {
     }
 
 
-    @GetMapping("/oo")
-    public void oo(HttpServletRequest request) {
-        hBaseService.aa();
+    @GetMapping("/put")
+    public void put() {
+        hBaseService.put();
     }
 
 }
