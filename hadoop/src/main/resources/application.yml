@@ -1,0 +1,14 @@
+spring:
+
+  hadoop:
+    fsUri: hdfs://localhost:9000
+
+hbase:
+  master: localhost:60000
+  zookeeper:
+    quorum: localhost
+    property:
+      clientPort: 2181
+zookeeper:
+  znode:
+    parent: /hbase
