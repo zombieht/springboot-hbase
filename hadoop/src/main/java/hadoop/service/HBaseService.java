@@ -92,7 +92,7 @@ public class HBaseService {
     }
 
 
-    public void aa() {
+    public void put() {
         TableName tableName = TableName.valueOf("demo");
 
 
